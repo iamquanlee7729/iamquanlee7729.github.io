@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tools{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	background-color:black;
+	height:20px;
+	padding:10px;
+}
+
+.tools a{
+	padding:5px 10px;
+	margin-right:15px;
+	background-color:white;
+	border:1px solid #E2E2E2;
+	color:#333333;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	font-family: 'Droid Serif', serif;
+	font-size:10pt;
+	cursor:pointer;
+}
+
+.tools a:hover{
+	background-color:#CCCCCC;
+}
+
+.tools span{
+	padding:10px 30px;
+	color:white;
+	font-family: 'Droid Serif', serif;
+	font-size:10pt;
+}
+
+.background1{
+	background-image: url(../Images/bg.jpg) !important;
+	background-repeat: repeat;	
+}
+
+.background2{
+	background-image: url(../Images/bg2.png) !important;
+	background-repeat: repeat;	
+}

@@ -1,0 +1,466 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+fieldset{
+	border:0px;
+}
+
+body{
+	top:0;
+	background-image: url(../Images/bg.jpg);
+	background-repeat: repeat;
+}
+
+.title{
+	font-family: 'Courgette', cursive;
+	position:absolute;
+	top:530px;
+	left:50%;
+	width:600px;
+	margin-left:-300px;
+	height:50px;
+	text-align:center;
+	color:#3f3f3f;
+	font-size:16pt;
+	text-shadow: 0px 1px white;
+}
+
+.webbody{
+	position:absolute;
+	top:150px;
+	left:50%;
+	width:600px;
+	margin-left:-301px;
+	height:350px;
+	background-color:white;
+	border:1px solid #dadada;
+	z-index:950;
+}
+
+.bodyshadow{
+	position: absolute;
+	top: 501px;
+	left: 50%;
+	margin-left: -296px;
+	width: 592px;
+	height: 19px;
+	background-image: url(../Images/shadow.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.progressionwrap{
+	position:absolute;
+	top:150px;
+	left:50%;
+	width:600px;
+	margin-left:-300px;
+	height:12px;
+	border-bottom:1px solid #dadada;
+	z-index:1000;
+}
+
+.progressionbar{
+	position: relative;
+	float: left;
+	width: 0%;
+	height: 12px;
+	background-image: url(../Images/progression_bar.png);
+	background-repeat: repeat;
+}
+
+.progressioninfo{
+	position:absolute;
+	top:0px;
+	right:0px;
+	margin:-50px -50px 0px 0px;
+	height:35px;
+	width:100px;
+	padding: 8px 0px 0px 0px;
+	font-family: 'Droid Serif', serif;
+	font-size:9pt;
+	text-align:center;
+}
+.tipgreen{
+	background-image: url(../Images/green_tip.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color:#3f3f3f;
+}
+
+.tipblue{
+	background-image: url(../Images/blue_tip.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color:white;
+}
+
+.tipred{
+	background-image: url(../Images/red_tip.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color:white;
+}
+
+.counterwrap{
+	width:100%;
+	float:left;
+	height:114px;
+	margin-top:37px;
+}
+
+.cgreen{
+	background-color:#c0da79;
+	border-top:2px solid #98b252;
+	border-bottom:2px solid #98b252;
+}
+
+.cblue{
+	background-color:#4ab3da;
+	border-top:2px solid #1f84aa;
+	border-bottom:2px solid #1f84aa;
+}
+
+.cred{
+	background-color:#da4b4a;
+	border-top:2px solid #ac2423;
+	border-bottom:2px solid #ac2423;
+}
+
+.timewraps{
+	width:103px;
+	float:left;
+	height:103px;
+	-moz-border-radius:200px;
+	-ms-border-radius:200px;
+	-o-border-radius:200px;
+	-webkit-border-radius:200px;
+	border-radius:200px;
+	background-color:white;
+	margin:5px 0px 0px 38px;
+}
+
+.timetext{
+	font-family: 'Droid Serif', serif;
+	width:100%;
+	float:left;
+	color:#757574;
+	font-size:10pt;
+	text-transform:uppercase;
+	text-align:center;
+	margin-top:15px;
+}
+
+.counter{
+	font-family: 'Squada One', cursive;
+	width:100%;
+	float:left;
+	color:#757574;
+	font-size:42pt;
+	text-align:center;
+	margin-top:-5px;
+}
+
+.subscribe_wrap{
+	width: 100%;
+	float: left;
+	height: 110px;
+	border-bottom: 1px solid #dadada;
+	background-image: url(../Images/social_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	text-align:center;
+}
+
+.subscribe_input{
+	width:550px;
+	height:25px;
+	margin-top:10px;
+	padding:7px 10px 10px 10px;
+	border: 1px solid #dadada;
+	-moz-border-radius:8px;
+	-ms-border-radius:8px;
+	-o-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	font-family: 'Droid Serif', serif;
+	color:#757574;
+}
+
+.greenbutton{
+	width: 200px;
+	padding: 5px 10px;
+	height: 32px;
+	background-image: url(../Images/green_button_bg.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border:1px solid #a7c25f;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	margin-top:10px;
+	color:#535352;
+	text-shadow:0px 1px #e3fc9e;
+	font-family: 'Droid Serif', serif;
+	background-color:#c9e08d;
+	cursor:pointer;
+}
+
+.greenbutton:hover{
+	background-image: none;
+}
+
+.bluebutton{
+	width: 200px;
+	padding: 5px 10px;
+	height: 32px;
+	background-image: url(../Images/blue_button_bg.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border:1px solid #2d9dc6;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	margin-top:10px;
+	color:#4a4a4a;
+	text-shadow:0px 1px white;
+	font-family: 'Droid Serif', serif;
+	background-color:#73c8e6;
+	cursor:pointer;
+}
+
+.bluebutton:hover{
+	background-image: none;
+}
+
+.redbutton{
+	width: 200px;
+	padding: 5px 10px;
+	height: 32px;
+	background-image: url(../Images/red_button_bg.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border:1px solid #da4b4a;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	margin-top:10px;
+	color:white;
+	text-shadow:0px 1px #630000;
+	font-family: 'Droid Serif', serif;
+	background-color:#eb7b7a;
+	cursor:pointer;
+}
+
+.redbutton:hover{
+	background-image: none;
+}
+
+/** TWITTER SECTION **/
+.twitterbody{
+	width: 600px;
+	float: left;
+	text-align: center;
+	margin-top:10px;
+}
+
+.tweet,
+.query {
+	font-family: 'Droid Serif', serif;
+	color: #7a7a7a;
+}
+
+.tweet_list {
+	border-radius: 0.5em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+	
+.tweet_list .awesome,
+.tweet_list .epic {
+	text-transform: uppercase;
+}
+
+.tweet_list li {
+	text-align:center;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 0.3em;
+	list-style-type: none;
+	border:0px !important;
+	font-family: 'Droid Serif', serif;
+	font-weight:normal;
+	text-decoration:none;
+	font-size:10pt;
+	color:#7a7a7a;
+}
+
+.tweet_list li:first-child{
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 0.3em;
+	list-style-type: none;
+	list-style-type: none;
+	border:0px !important;
+}
+
+.tweet_list li:last-child{
+	overflow-y: auto;
+	overflow-x: hidden;
+	list-style-type: none;
+	border-top:0px;
+	border-bottom:0px;
+	padding-top:17px;
+}
+		
+.tweet_list li a {
+	color: #ff0202;
+	text-decoration:none;
+}
+
+.tweet_list li a:hover {
+	color: #a20303;
+	text-decoration:underline;
+}
+
+.tweet_list .tweet_avatar {
+	padding-right: .3em; float: left;
+}
+
+.tweet_list .tweet_avatar img {
+	vertical-align: middle;
+}
+
+/** ERROR REPORTING **/
+.errors{
+	display:none;
+	width:200px;
+	text-align:left;
+	position:absolute;
+	top:120px;
+	left:50%;
+	margin-left:-300px;
+	padding:6px 12px;
+	background-color:#ff9d9d;
+	border:1px solid #e46464;
+	-moz-border-radius:4px;
+	-ms-border-radius:4px;
+	-o-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	color:white;
+	-moz-text-shadow:#8d0707;
+	-ms-text-shadow:#8d0707;
+	-o-text-shadow:#8d0707;
+	-webkit-text-shadow:#8d0707;
+	text-shadow:#8d0707;
+	font-family: 'Courgette', cursive;
+	font-size:12pt;
+}
+
+.successcontainer{
+	display:none;
+	width:270px;
+	text-align:left;
+	position:absolute;
+	top:124px;
+	left:50%;
+	margin-left:-300px;
+	padding:6px 12px;
+	background-color:#afce52;
+	border:1px solid #72ac20;
+	-moz-border-radius:4px;
+	-ms-border-radius:4px;
+	-o-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	color:white;
+	-moz-text-shadow:#297118;
+	-ms-text-shadow:#297118;
+	-o-text-shadow:#297118;
+	-webkit-text-shadow:#297118;
+	text-shadow:#297118;
+	font-family: 'Courgette', cursive;
+	font-size:9pt;
+}
+
+/** SOCIAL SECTION **/
+.swrap{
+	position:absolute;
+	top:150px;
+	left:50%;
+	margin-left:-382px;
+	width:40px;
+	height:330px;
+	padding:10px;
+}
+
+.swrap img{
+	border:0px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+.swrap img:hover{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: .5;
+  -khtml-opacity: .5;
+  opacity: .5;
+}
+
+.sgreen{
+	border:1px solid #b0b0b0;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background-color:#c0da79;
+}
+
+.sred{
+	border:1px solid #989898;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background-color:#da4b4a;
+}
+
+.sblue{
+	border:1px solid #989898;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	background-color:#4ab3da;
+}
+
+/*** TRAMSITIONS  ***/
+.swrap img{
+-moz-transition: height 1s ease-out, opacity .5s ease;
+-webkit-transition: height 1s ease-out, opacity .5s ease;
+-o-transition: height 1s ease-out, opacity .5s ease;
+transition: height 1s ease-out, opacity .5s ease;
+}
